@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
-
+		<link rel="stylesheet" href="css/example.css">
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
@@ -22,48 +22,29 @@
 				</section>
 				-->
 				<section >	
-					<audio data-autoplay controls src="audio/print/Fx.mp4" > </audio>
-					<p class="r-fit-text">$f(x)$</p>
-				</section>
-				<section>
-					<section data-auto-animate >
-						<audio data-autoplay controls src="audio/print/Print.mp3" > </audio>
-						<div style="font-size:200%;">	
-							<div class="r-hstack justify-center">
-								<p > <span >print(</span></p>
-								<p  class="fragment semi-fade-out" >x</p>
-								<p>)</p>
-							</div>
-						</div>
-					</section>
-					<section data-auto-animate >
-						<audio data-autoplay controls src="audio/print/Printhelloworld.mp3" > </audio>
-						<div style="font-size:200%;">	
-							<div class="r-hstack justify-center">
-								<p > <span >print(</span></p>
-								<p >"HELLO WORLD!"</p>
-								<p>)</p>
-							</div>
-						</div>
+					<h2 style="font-family: 'Vazir';">سرفصل مطالب</h2>
+					<ol class="jaabe">
+						<li><a href="print/index.html" target="_blank">print</a></li>
+						<li>data types</li>
+						<li>input</li>
+						<li>list</li>
+						<li>index</li>
+						<ol>
+							<li>string index</li>
+						</ol>
+						<li>if</li>
+						<ol>
+							<li>گزاره‌های منطقی</li>
+						</ol>
+						<li>loop</li>
+						<ol>
+							<li>while</li>
+							<li>for</li>
+						</ol>
+						<li>نصب ffmpeg</li>
+						<li>بیاین بعضی چیزا رو فعلا در نظر نگیریم.</li>
 						
-					</section>
-				</section>
-				<section data-auto-animate = "تمرینات">
-					<audio data-autoplay controls src="audio/print/Tamrin1.mp4" > </audio>
-					<h1 style="font-family:'Vazir';">تمرینات این  بخش</h1>
-					<h2 style="font-family:'Vazir';" dir = "rtl"><a  href="https://quera.org/course/assignments/54625/problems" , target="_blank">تمرینات داخل کوئرا</a></h2>
-				</section>
-				<section data-auto-animate = "تمرینات" >
-					<audio data-autoplay controls src="audio/print/Tamrin2.mp4" > </audio>
-					<h1 style="font-family:'Vazir';">تمرینات این  بخش</h1>
-					<h2 style="font-family:'Vazir';" dir = "rtl"><a href="https://quera.org/course/assignments/54625/problems" , target="_blank">تمرینات داخل کوئرا</a></h2>
-					<h2 style="font-family:'Vazir';">رسم یک نماد در خروجی</h2>
-					<div style="white-space:pre; align-content: center; font-family:'Courier New';" class="fragment fade-up">
-####
-#//#
-#//#
-####
-					</div>
+					</ol>
 				</section>
 					
 			</div>
@@ -80,11 +61,14 @@
 			// - https://revealjs.com/initialization/
 			// - https://revealjs.com/config/
 			Reveal.initialize({
+				rtl: false,
 				hash: true,
-
+				
+				
 				// Learn about plugins: https://revealjs.com/plugins/
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3, RevealManim ]
 			});
+			
 		</script>
 	</body>
 </html>

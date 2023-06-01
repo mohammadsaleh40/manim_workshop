@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+	<head>
+		
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="/dist/reset.css">
+		<link rel="stylesheet" href="/dist/reveal.css">
+		<link rel="stylesheet" href="/dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="/plugin/highlight/monokai.css">
+		
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!--
+				<section class="fv-background" fv-video="animations/media/videos/demo_scene/1080p60/print_function.mp4" fv-playback-info="animations/media/videos/demo_scene/1080p60/print_function.json">
+					
+				</section>
+				-->
+				<section >	
+					<audio data-autoplay controls src="/audio/print/Fx.mp4" > </audio>
+					<p class="r-fit-text">$f(x)$</p>
+				</section>
+				<section>
+					<section data-auto-animate >
+						<audio data-autoplay controls src="/audio/print/Print.mp3" > </audio>
+						<div style="font-size:200%;">	
+							<div class="r-hstack justify-center">
+								<p > <span >print(</span></p>
+								<p  class="fragment semi-fade-out" >x</p>
+								<p>)</p>
+							</div>
+						</div>
+					</section>
+					<section data-auto-animate >
+						<audio data-autoplay controls src="/audio/print/Printhelloworld.mp3" > </audio>
+						<div style="font-size:200%;">	
+							<div class="r-hstack justify-center">
+								<p > <span >print(</span></p>
+								<p >"HELLO WORLD!"</p>
+								<p>)</p>
+							</div>
+						</div>
+						
+					</section>
+				</section>
+				<section data-auto-animate = "تمرینات">
+					<audio data-autoplay controls src="/audio/print/Tamrin1.mp4"> </audio>
+					<h1 style="font-family:'Vazir';">تمرینات این  بخش</h1>
+					<h2 style="font-family:'Vazir';"><a  href="https://quera.org/course/assignments/54625/problems" , target="_blank">تمرینات داخل کوئرا</a></h2>
+				</section>			
+				<section data-auto-animate = "تمرینات" >
+					<audio data-autoplay controls src="/audio/print/Tamrin2.mp4"> </audio>
+					<h1 style="font-family:'Vazir';">تمرینات این  بخش</h1>
+					<h2 style="font-family:'Vazir';" dir = "rtl"><a href="https://quera.org/course/assignments/54625/problems" , target="_blank">تمرینات داخل کوئرا</a></h2>
+					<h2 style="font-family:'Vazir';">رسم یک نماد در خروجی</h2>
+					<div style="white-space:pre; align-content: center; font-family:'Courier New';" class="fragment fade-up">
+####
+#//#
+#//#
+####
+					</div>
+				</section>
+					
+			</div>
+		</div>
+
+		<script src="/dist/reveal.js"></script>
+		<script src="/plugin/math/math.js"></script>
+		<script src="/plugin/manim/manim.js"></script>
+		<script src="/plugin/notes/notes.js"></script>
+		<script src="/plugin/markdown/markdown.js"></script>
+		<script src="/plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				rtl: false,
+				hash: true,
+				
+				
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.MathJax3, RevealManim ]
+			});
+			
+		</script>
+	</body>
+</html>
